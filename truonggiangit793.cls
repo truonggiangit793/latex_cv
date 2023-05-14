@@ -2,7 +2,7 @@
 \RequirePackage[dvipsnames]{xcolor}
 \LoadClass[11pt]{article}
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{truonggiangit793}[2023/05/12 Giang CV Class]
+\ProvidesClass{truonggiangit793}[Giang CV Class]
 \RequirePackage[sfdefault]{noto}
 \RequirePackage{etoolbox}
 \RequirePackage{pgffor}
@@ -70,14 +70,8 @@ path picture={ \node at (path picture bounding box.center)%
 \newcommand{\githubview}{\href{\@githubaccount}{\faGithubSquare\ \footnotesize Github}}
 \newcommand{\linkedinview}{\href{\@linkedinaccount}{\faLinkedinSquare\ \footnotesize Linkedin}}
 \newcommand{\facebookview}{\href{\@facebookaccount}{\faFacebookSquare\ \footnotesize Facebook}}
-
-\newcommand{\name}{
-\textbf{{\large \@firstname \ \textsc{\@lastname}}}
-}
-
-\newcommand{\contact}{
-{\small \@gender \\ \@dob \\ \@mobile \\ \@address \\ \@mail \\ \githubview \cps \facebookview}
-}
+\newcommand{\name}{\textbf{{\large \@firstname \ \textsc{\@lastname}}}}
+\newcommand{\contact}{{\small \@gender \\ \@dob \\ \@mobile \\ \@address \\ \@mail \\ \githubview \cps \facebookview}}
 
 % Covverletterview
 
