@@ -76,7 +76,7 @@ path picture={ \node at (path picture bounding box.center)%
 }
 
 \newcommand{\contact}{
-{\small \@gender \\ \@dob \\ \@mobile \\ \@address \\ \@mail \\ \githubview \cps \facebookview}
+{\small \@position \\ \@gender \\ \@dob \\ \@mobile \\ \@address \\ \@mail \\ \githubview \cps \facebookview \cps \linkedinview}
 }
 
 % Covverletterview
